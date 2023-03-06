@@ -1,0 +1,510 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+  <!-- CSS Libraries -->
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800;900&amp;display=swap"
+    rel="stylesheet" /><!-- CSS Libraries -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
+  <link href="lib/flaticon/font/flaticon.css" rel="stylesheet" />
+  <link href="lib/animate/animate.min.css" rel="stylesheet" />
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+  <link href="owlcarousel/owl.theme.default.min.css" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet" />
+  <link rel="shortcut icon" href="images/Rev4-01.png" type="image/x-icon">
+  <title>NEXFID</title>
+  <style>
+    .contained {
+      position: relative;
+      text-align: center;
+      color: white;
+    }
+
+    .centered {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .classy {
+      position: absolute;
+
+      object-fit: cover;
+      top: 0;
+      left: 0;
+      z-index: -1;
+    }
+
+    .navbar {
+      transition: all 0.5s;
+    }
+
+    .navbar-scrolled {
+      background-color: #0d1d3b;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+    }
+
+    .sizesetting {
+      margin-top: 840px;
+    }
+
+    .sizesetting1 {
+      margin-top: 720px;
+    }
+  </style>
+</head>
+
+<body>
+
+
+  <!-- Home Page Corousal -->
+  <div id="carouselExampleFade" class="carousel slide carousel-fade carousel-dark classy">
+    <!-- Indicators -->
+    <!-- <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div> -->
+
+    <!-- Inner -->
+    <div class="carousel-inner">
+      <!-- Single item -->
+      <div class="carousel-item active contained">
+        <img src="images/scroll1.jpeg" class="d-block w-100" height="750px" alt="fly bee" />
+        <div class="centered">
+          <h2 class="text-light">Utiliser le pouvoir de l'insecte pour nourrir les animaux et les plantes</h2>
+        </div>
+      </div>
+
+      <!-- Single item -->
+      <div class="carousel-item contained">
+        <img src="images/scroll2.jpeg" height="750" class="d-block w-100" alt="waste" />
+        <div class="centered">
+          <h2 class="text-light">Redonner une seconde vie aux déchets alimentaires</h2>
+        </div>
+      </div>
+
+      <!-- Single item -->
+      <div class="carousel-item contained">
+        <img src="images/scroll3.jpeg" height="750" class="d-block w-100" alt="farm" />
+        <div class="centered">
+          <h2 class="text-dark">Une solution innovante pour répondre aux problématiques alimentaires et climatiques en
+            Afrique
+          </h2>
+        </div>
+      </div>
+    </div>
+    <!-- Inner -->
+
+    <!-- Controls -->
+    <button class="carousel-control-prev t" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="fa fa-3x fa-arrow-alt-circle-left" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class=" fa fa-3x fa-arrow-alt-circle-right" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- Carousel End -->
+
+
+
+  <!-- Navbar -->
+
+  <!-- style="background-color: black !important" -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <a href="#" class="navbar-brand"><img src="images/Rev4-01.png" width="30%" alt=""> <span class="fs-1">
+          NEXFID</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+        <div class="navbar-nav mr-auto">
+          <!-- <div class="d-none d-md-block" > <a href="#"><img src="images/Rev4-01.png" width="120px" height="70px" alt=""> </a></div> -->
+          <a href="#solution" class="nav-item nav-link ">Accueil</a>
+          <a href="#mission" class="nav-item nav-link"><p >Notre&nbsp;Mission </p></a>
+          <a href="#equip" class="nav-item nav-link">Notre&nbsp;Équipe</a>
+          <a href="#product" class="nav-item nav-link">Notre&nbsp;Products</a>
+          <a href="#research" class="nav-item nav-link">Recherche&nbsp;Et&nbsp;Developpement</a>
+          <a href="#partener" class="nav-item nav-link">Notre&nbsp;Patenaires</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+  
+
+
+  <div class="container sizesetting">
+
+    <!-- Tag Line -->
+    <p class="text-center fs-4">
+      NEXFID EST UNE START UP DE BIOTECHNOLOGIE QUI EXPLOITE LE POUVOIR DE L'INSECTE POUR NOURRIR LES ANIMAUX ET LES
+      VÉGÉTAUX
+    </p>
+
+      <div class="section-header text-center">
+        <h2>NEXFID dans les media</h2>
+      </div>
+      <!-- Tag Line -->
+      <p class="text-center fs-4">
+        Suivez l’interaction de notre co-fondatrice Halimatou dans l’émission technologie d’impact, une recette d’avenir ? de startup Montréal
+      </p>
+
+
+      <div id="solution">
+        <p class="text-center fs-4 mt-5">NOS SOLUTIONS S’ALIGNENT DERRIÈRE 5 DES 17 OBJECTIFS MAJEURS DES NATIONS UNIES.
+        </p>
+  
+  
+        <!-- Our solution images displayed -->
+        <center>
+          <div class="mx-4 my-2">
+            <div class="row">
+              <div class="col-md-1"></div>
+              <div class="col-md-2"><img alt="Image" src="images/sol1.png" width="100%" /></div>
+              <div class="col-md-2"><img alt="Image" src="images/sol2.png" width="100%" /></div>
+              <div class="col-md-2"><img alt="Image" src="images/sol1.png" width="100%" /></div>
+              <div class="col-md-2"><img alt="Image" src="images/sol3.png" width="100%" /></div>
+              <div class="col-md-2"><img alt="Image" src="images/sol4.png" width="100%" /></div>
+            </div>
+          </div>
+        </center>
+  
+  </div>
+
+
+
+    <!-- Our Mission Line -->
+    <div id="mission" class="mt-5 card p-3">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="section-header text-center">
+            <h2>Notre Mission</h2>
+          </div>
+          <p class="text-center fs-4">RECONSTRUIRE NOS HABITUDES ALIMENTAIRES AUTOUR D'UN SCHÉMA DURABLE</p>
+          <center><img src="images/mission.png" width="40%" alt=""></center>
+        </div>
+        <div class="col-md-6">
+          <p>Produire plus et produire mieux est l’un des enjeux majeurs des décennies à venir afin d’être capable de
+            nourrir une population mondiale estimée à plus de 10 milliards d’individus en 2050 dont 25% sur le continent
+            africain.</p>
+          <p>
+            Cette croissance de la population entrainera une augmentation de la demande en protéines animales.
+            Actuellement, les animaux se nourrissent de farine et d’huile de poisson, de soja et autres céréales, mais
+            ces ressources sont limitées. Les stocks de poisson sont actuellement exploités à leur maximum (90-100%) et
+            la production de farine de poisson atteindra un plafond de production. La production de soja et d’autres
+            céréales demande de cultiver des terres qui pourraient venir à manquer à mesure que la demande croît. De
+            plus, l'influence du changement climatique sur la production et les moyens de subsistance est la plus forte
+            en Afrique, car les systèmes d'agriculture en zones arides et de parcours pastoraux dominent les systèmes de
+            subsistance pour 70 à 80 % de la population rurale du continent. Un changement de nos habitudes alimentaires
+            représente une urgence immédiate
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+
+   
+      <!-- Our Team -->
+      <div class="section-header text-center mt-5" id="equip">
+        <h2>Notre Equipe</h2>
+      </div>
+      <section class="" style="background-color: #eee;">
+        <div class="container p-5">
+          <div class="row d-flex justify-content-center align-items-center">
+            <!-- 1st Team Member -->
+            <div class="col-md-6 col-xl-4 my-2">
+
+              <div class="card" style="border-radius: 15px;">
+                <div class="card-body text-center">
+                  <div class="mt-3 mb-4">
+                    <img src="images/team1.png" class="rounded-circle img-fluid" style="width: 100px;" />
+                  </div>
+                  <h4 class="mb-2">Massakoro Oularé</h4>
+                  <p class="text-muted mb-4">Co-fondateur<span class="mx-2">|</span> CEO </p>
+                  <div class="mb-4 pb-2">
+                    <button type="button" class="btn btn-outline-primary btn-floating">
+                      <a href="https://www.linkedin.com/in/massakoro-oulare-502955135/">
+                        <i class="fab fa-linkedin-in fa-lg"></i>
+                      </a>
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Second Team Member -->
+            <div class="col-md-6 col-xl-4">
+
+              <div class="card" style="border-radius: 15px;">
+                <div class="card-body text-center">
+                  <div class="mt-3 mb-4">
+                    <img src="images/team2.png" class="rounded-circle img-fluid" style="width: 100px;" />
+                  </div>
+                  <h4 class="mb-2">Halimatou Diallo</h4>
+                  <p class="text-muted mb-4">Co-fondateur<span class="mx-2">|</span> COO </p>
+                  <div class="mb-4 pb-2">
+                    <button type="button" class="btn btn-outline-primary btn-floating">
+                      <a href="https://www.linkedin.com/in/halimatou-diallo-990913158/">
+                        <i class="fab fa-linkedin-in fa-lg"></i>
+                      </a>
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- Our Product -->
+      <div class="testimonial" id="product">
+        <div class="container">
+          <div class="section-header text-center">
+            <h2>Nos Produits</h2>
+          </div>
+          <div class="card p-3">
+            <div class="row">
+
+              <div class="col-md-6">
+                <center><img src="images/product1.png" class="img-fluid" style="width: 50%;" /></center>
+              </div>
+              <div class="col-md-6">
+                <h3 class="mt-2">Nx-Pro</h3>
+                <p>
+                  L’insecte fait partie de l’alimentation des volailles à l’air libre depuis des générations. L’insecte
+                  comporte de protéines hautement digestibles contribuant à la croissance des volailles et à la qualité
+                  de leur viande. Par son profil riche en acides aminés essentiels comme la leucine, la lysine et la
+                  valine, notre farine granulée est donc considérée comme une source de protéines plus durable et de
+                  qualité que la farine de poisson. Ces trois teneurs en acides aminés sont supérieures à celles de la
+                  farine de soja, et même la teneur en valine est supérieure à celle de la farine de poisson
+                </p>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="card p-3 mt-2">
+            <div class="row">
+              <div class="col-md-6">
+                <center><img src="images/p1.png" class="img-fluid" style="width: 25%;" /> </center>
+                <center>
+                  <div style="margin-left: 20%; margin-top: -12%;">
+                    <img src="images/p1.png" class="img-fluid" style="width: 31%;" />
+                  </div>
+                </center>
+              </div>
+              <div class="col-md-6">
+                <h3 class="mt-2">Nx-Oil</h3>
+                <p>
+                  En plus d’avoir une bonne teneur en protéines, les insectes présentent une importante teneur en acide
+                  gras particulièrement saturés dont l’acide laurique qui est connu pour ses propriétés antimicrobiennes
+                  ainsi que sa contribution à l’amélioration de la flore intestinale et du système immunitaire. Notre
+                  huile contient des acides gras insaturés comme l'acide oléique, l'acide linoléique, et l'acide
+                  linolénique qui ont des effets bénéfiques pour la santé des animaux.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card p-3 mt-2">
+            <div class="row">
+              <div class="col-md-6">
+                <center><img src="images/product3.png" class="img-fluid" style="width: 50%;" /> </center>
+              </div>
+              <div class="col-md-6">
+                <h3 class="mt-2">Nx-Frass</h3>
+                <P>
+                  Provenant entièrement des déjections des insectes se nourrissant exclusivement de végétaux, l’engrais
+                  est organique, naturel sans additifs pouvant être utilisé pour une agriculture responsable à faible
+                  impact environnemental. Notre engrais, très riche en minéraux comme l’azote, le phosphore et le
+                  potassium, il est adapté à tous les types de cultures avec des rendements améliorés. De plus, sa
+                  particularité est qu’il est riche en bactéries bénéfiques pour améliorer l’absorption des nutriments
+                  des sols et fortifier l’activité microbienne. Ce qui préserve la qualité du sol (forte rétention
+                  d’eau, faible lessivage), améliore sa fertilité et sa durabilité.
+                </P>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Research And Development -->
+      <div class="section-header text-center" id="research">
+        <h2>Recherche Et Développement </h2>
+      </div>
+      <p class="fs-4 text-center">En collaboration avec des centres de recherches de pointe, nous développons des
+        produits de haute qualité et très porteurs de valeurs. Nous continuons à repousser les limites de leurs
+        performances.</p>
+      <nav>
+        <div class="nav nav-tabs mt-5" id="nav-tab" role="tablist">
+          <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home"
+            type="button" role="tab" aria-controls="nav-home" aria-selected="true">
+            <h3>Bioconversion des déchets organiques </h3>
+          </button>
+          <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button"
+            role="tab" aria-controls="nav-profile" aria-selected="false">
+            <h3>Environnement de production optimisé</h3>
+          </button>
+        </div>
+      </nav>
+      <div class="tab-content" id="nav-tabContent">
+        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab"
+          tabindex="0">
+          <p>
+            La gestion des déchets, principalement en zone urbaine, est considérée comme l'un des enjeux
+            environnementaux les plus importants. L’augmentation de la production agricole entraîne une augmentation du
+            déchet alimentaire car près du tiers de la production est perdu ou gaspillé. Le recyclage des déchets
+            organiques est encore assez limité, bien représentent la fraction la plus grande des déchets produits.
+            Aujourd'hui, la plupart de ces déchets organiques, pourtant valorisables, sont enfouis ou incinérés,
+            apportant des problèmes environnementaux majeurs (pollution des sols, de l'air et des nappes phréatiques,
+            demande d'espaces de stockage de plus en plus grande...). La forte croissance des populations urbaines en
+            fait un enjeu de taille pour les communes et de plus en plus de solutions sont expérimentées.
+          </p>
+          <p>
+            Les larves de la mouche soldat noire sont des excellents agents de conversion des déchets organiques. Leur
+            capacité à convertir un déchet organique dépend de sa composition et de son taux d'humidité. De plus, la
+            qualité nutritionnelle de la farine et l’huile obtenues à partir des larves dépend du type de déchets.
+          </p>
+          <p>
+            NEXFID ne cesse de travailler pour trouver la meilleure formulation des déchets afin d'exploiter la capacité
+            optimale des larves et produire des aliments de qualité supérieure pour les animaux et les végétaux.
+          </p>
+          <center>
+            <img src="images/research1.png" class="img-fluid mt-2" width="25%" alt="">
+          </center>
+        </div>
+        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+          <p>
+            La transformation des larves exige un procédé efficace pour assurer l’innocuité, la conservation et la
+            qualité nutritionnelle de la farine obtenue. L’optimisation des techniques de conditionnement et de séchage
+            des larves permet de réduire efficacement leur contenu en eau et leur charge microbienne. La maîtrise des
+            propriétés physico-chimiques, nutritionnelles, le pH des larves avant et après transformation, l’oxydation
+            des lipides ainsi que la teneur en lipides et en protéines représentent les enjeux majeurs des techniques de
+            transformation et de conservation.
+          </p>
+
+          <p>
+            NEXFID travaille à créer un environnement d’élevage qui s’adapte au cycle de croissance, de reproduction et
+            de transformation de Hermetia Illucens.
+          </p>
+          <center>
+            <img src="images/research2.png" class="img-fluid mt-2" width="25%" alt="">
+          </center>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- Our Partner -->
+    <div class="section-header text-center mt-5" id="partener">
+      <h2>Nos Partenaires</h2>
+    </div>
+    <div class="testimonial">
+      <div class="container">
+        <div class="owl-carousel testimonials-carousel">
+
+          <div class="item">
+            <a href=""><img alt="Image" src="images/parte1.png" height="200px" width="200px" /></a>
+          </div>
+
+          <div class="item">
+            <a href="https://www.mitacs.ca/fr"><img alt="Image" src="images/parte2.png" height="200px"
+                width="200px" /></a>
+          </div>
+
+          <div class="item">
+            <a href="https://2degres.com/"><img alt="Image" src="images/parte3.png" height="200px" width="200px" /></a>
+          </div>
+
+          <div class="item">
+            <a href="https://www.polymtl.ca/propolys/"><img alt="Image" src="images/parte4.png" height="200px"
+                width="200px" /></a>
+          </div>
+
+          <div class="item">
+            <a href="https://ciraig.org/index.php/fr/accueil/"><img alt="Image" src="images/parte5.png" height="200px"
+                width="200px" /></a>
+          </div>
+
+          <div class="item">
+            <a href=" https://www.lojiq.org/"><img alt="Image" src="images/parte6.jfif" height="200px"
+                width="200px" /></a>
+          </div>
+
+          <div class="item">
+            <a href="https://www.economie.gouv.qc.ca/"><img alt="Image" src="images/parte7.jfif" height="200px"
+                width="200px" /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer -->
+  <footer class="page-footer font-small text-white mt-5" style="background-color:  #0d1d3b;">
+
+    <div class="footer-copyright text-center py-1">
+      <p><i class="fa fa-map-marker-alt"></i>1300, 8e avenue, Québec(Québec), G1J 5L5</p>
+      <p style="margin-top: -10px;"><i class="fa fa-phone-alt"></i>+1 438 308 61 61 / +1 581 722 0102</p>
+
+      <button type="button" class="btn btn-outline-light btn-floating" style="margin-top: -10px;">
+        <a href="https://www.linkedin.com/company/nexfid/">
+          <i class="fab fa-linkedin-in fa-lg"></i>
+        </a>
+      </button>
+    </div>
+
+  </footer>
+
+
+  <script>
+    const navEL = document.querySelector('.navbar');
+    const setting = document.querySelector('.sizesetting');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY >= 56) {
+        navEL.classList.add('navbar-scrolled');
+        // setting.classList.remove('sizesetting');
+        // setting.classList.add('sizesetting1');
+      } else if (window.scrollY < 56) {
+        navEL.classList.remove('navbar-scrolled');
+        // setting.classList.remove('sizesetting1');
+        // setting.classList.add('sizesetting');
+      }
+    });
+  </script>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script><!-- Contact Javascript File -->
+  <script src="mail/jqBootstrapValidation.min.js"></script>
+  <script src="mail/contact.js"></script>
+  <script src="js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
